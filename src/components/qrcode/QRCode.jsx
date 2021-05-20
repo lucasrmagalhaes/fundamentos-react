@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Card, CardContent, makeStyles, Grid, TextField, Button } from '@material-ui/core';
 import QRCode from 'qrcode';
-import Default from './Default.jpg'
+import Default from '../../assets/img/Default.jpg'
 
 function App() {
   const [cnpj, setCnpj] = useState('');
