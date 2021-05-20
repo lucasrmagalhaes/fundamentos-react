@@ -16,10 +16,12 @@ import Input from './components/form/Input'
 import Contador from './components/contador/Contador'
 import Mega from './components/mega/Mega'
 
-// import QRCode from './components/qrcode/QRCode';
+import QRCode from './components/qrcode/QRCode';
 
 export default (props) => (
   <div className="App">
+    <QRCode></QRCode>
+
     <h1>Fundamentos React</h1>
 
     <div className="Cards">
@@ -73,10 +75,6 @@ export default (props) => (
       <Card titulo="#01 - Primeiro Componente" color="#92B06A">
         <Primeiro />
       </Card>
-
-      {/* <Card titulo="#00 - Gerador de QR Code" color="#92B06A">
-        <QRCode></QRCode>
-      </Card> */}
     </div>
   </div>
 );

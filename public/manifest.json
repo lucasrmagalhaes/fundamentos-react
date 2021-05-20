@@ -1,6 +1,6 @@
 {
-  "short_name": "QR CODE React",
-  "name": "Gerador de QR CODE",
+  "short_name": "Fundamentos React",
+  "name": "Fundamentos React",
   "icons": [
     {
       "src": "qrcode.svg",
